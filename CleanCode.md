@@ -26,3 +26,13 @@
 - extract the bodies of the try and catch blocks out into functions of their own.
   - Remeber what you've done in `foundry` project when handling errors (cascading errors with `Result` type in Rust)
 - Master programmers think of systems as stories to be told rather than programs to be written.
+
+## Chapter 7 : Comments
+- I have not commented to codes because I had heard it's better to clarify the code before writing it. Nonetheless, here I have some helpfuls about comments.
+- Comments are not “pure good.” Indeed, they are, at best, a necessary evil.
+- Unfortunately the comments don’t always follow code chunks—can’t always follow them. ( I did made some commits fixing old comments in the last project )
+- Sometimes a comment goes beyond just useful information about the implementation and provides the intent behind a decision.
+- It is sometimes reasonable to leave “To do” notes in the form of `//TODO` comments.
+  - Whatever else a TODO might be, it is not an excuse to leave bad code in the system.
+- Any comment that forces you to look in another module for the meaning of that comment has failed to communicate to you and is not worth the bits it consumes.
+- Avoid writing nonlocal Information in comments.
