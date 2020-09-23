@@ -36,3 +36,10 @@
   - Whatever else a TODO might be, it is not an excuse to leave bad code in the system.
 - Any comment that forces you to look in another module for the meaning of that comment has failed to communicate to you and is not worth the bits it consumes.
 - Avoid writing nonlocal Information in comments.
+
+## Chapter 8 : Error handling
+- Create informative error messages to provide context with exceptions.
+- In fact, wrapping third-party APIs is a best practice. I think it really is!
+- Clean code is readable but it must also be robust.
+  
+**I read this chapter but I'm not familiar with java style error handling so that I could not "understand" fully. Let's revisit later on**
