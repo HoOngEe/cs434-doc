@@ -58,3 +58,11 @@
   - One assertion rule seems draconian.
 - Still, test just one concept per test function.
 - Tests should not depend on each other.
+
+### Chapter 10 : Classes
+- When measure the size of a class, we count responsibilities.
+- If we cannot derive a concise name for a class, then it’s likely too large.
+- Many developers fear that a large number of small, single-purpose classes makes it more difficult to understand the bigger picture.
+- When classes lose cohesion, split them!
+- In an ideal system, we incorporate new features by extending the system, not by making modifications to existing code.
+- The lack of coupling means that the elements of our system are better isolated from each other and from change.
