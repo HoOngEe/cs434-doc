@@ -43,3 +43,18 @@
 - Clean code is readable but it must also be robust.
   
 **I read this chapter but I'm not familiar with java style error handling so that I could not "understand" fully. Let's revisit later on**
+
+### Chapter 9 : Unit tests
+- I really dislike TDD, I believe .
+- The sheer bulk of those tests, which can rival the size of the production code itself, can present a daunting management problem.
+- Dirty tests is equivalent to, if not worse than, having no tests.
+  - Tests must change as the production code evolves.
+- Test code is just as important as production code.
+- If you have tests, you do not fear making changes to the code!
+- Remember BUILD-OPERATE-CHECK pattern.
+- Tests need not be as efficient as production code.
+  - Even though the running environment is very constrained, the test environment is not likely to be constrained at all.
+- The best thing we can say is that the number of asserts in a test ought to be minimized.
+  - One assertion rule seems draconian.
+- Still, test just one concept per test function.
+- Tests should not depend on each other.
