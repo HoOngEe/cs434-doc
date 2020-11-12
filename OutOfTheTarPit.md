@@ -48,3 +48,23 @@
 - missed abstraction
 - ....
 - The more powerful a language, the harder it is to understand systems on it.
+
+## 5. Classical approaches to managing complexity
+### object-orientation
+- primary strenghs of the OOP: *abstract data type*, *encapsulation*
+- Multiple objects constraints are not easily handled.
+- Introducing equivelnce relation between objects adds complexity to the task of reasoning.
+- Message-passing model of concurrency may help to informal reasoning in some cases.
+- Suffer from both state-derived and control-derived complexity.
+  
+### Functional Programming
+- The primary strength of it is that the entire system gains "*referential transparency*" by avoiding state (and side-effects).
+- Both informal reasoning and testing become much more effective by avoiding state dependency.
+- A mutable state hidden inside is replaced by an extra parameter of both input and output.
+- **More generally, whatever the language being used, there are larger benefits to be had from avoiding hidden, implicit, mutable state.**
+- The main weakness of functional programming arises when the system must maintain state of some kind.
+
+### Logic Programming
+- I have not utilized such a paradigm.. may be *coq* is one example?
+- Stating a set of axioms and the attributes required of something to be considered a solution.
+- Running the system is equivalent to the construction of a formal proof of each solution.
