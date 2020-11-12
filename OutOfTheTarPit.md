@@ -68,3 +68,8 @@
 - I have not utilized such a paradigm.. may be *coq* is one example?
 - Stating a set of axioms and the attributes required of something to be considered a solution.
 - Running the system is equivalent to the construction of a formal proof of each solution.
+
+## 6. Accidents and Essence
+- **Essential Complexity**: which is inherent in, and the essence of, the problem.
+- **Accidental Complexity**: All the rest - the development team would not have to deal with in the ideal world.
+- Unlike Brooks, this paper disagree that the majority of complexity of large systems is not of the essential type.
